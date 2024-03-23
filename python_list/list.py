@@ -76,3 +76,19 @@ print(f"{list[4]}")
 
 
 
+# list using random module: - 
+
+names = ["sanji","nami","luffy","zoro","ussap","robin","choper","jinbme","franky","Brook","zeus"]
+
+# The code above converts the input into an array seperating
+#each name in the input by a comma and space.
+# 🚨 Don't change the code above 👆
+import random
+
+num_item = len(names)
+
+random_choice = random.randint(0,num_item -1)
+
+p_w_pay = names[random_choice]
+print(f"{p_w_pay} is going to buy the meal today!")
+
