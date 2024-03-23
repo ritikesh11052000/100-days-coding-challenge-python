@@ -92,3 +92,17 @@ random_choice = random.randint(0,num_item -1)
 p_w_pay = names[random_choice]
 print(f"{p_w_pay} is going to buy the meal today!")
 
+
+
+
+
+
+
+
+
+"""import random
+list = ["luffy", "zoro","sanji","jinmbe"]
+list[3] = "usap"
+list.extend(["ace","sabo"])
+print(list)
+"""
